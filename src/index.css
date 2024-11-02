@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+ @media (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+        /* Styles pour tablettes */
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1000px;
+        /* Styles pour ordinateurs de bureau */
+    }
+}

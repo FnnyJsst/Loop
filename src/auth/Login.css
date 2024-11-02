@@ -1,0 +1,95 @@
+.login-container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo-background {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#form-container {
+    width: 100%;
+    background-color: #FBF5F5;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: -20%; 
+    position: relative; 
+    filter: drop-shadow(0px 0px 1.5px #C2BBBB);
+    top: 0;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10%;
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+
+input {
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-width: 0;
+    filter: drop-shadow(0px 1px 1px #C2BBBB);
+}
+
+.forgot-password {
+    margin-top: 5%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10%;
+    text-decoration: underline; 
+}
+
+button {
+    width: 80%;
+    height: 45px;
+    background-color: #88C28D;
+    filter: drop-shadow(0px 1px 1px #C2BBBB);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#signup-text-2 {
+    color: #FF7827;
+    margin-left: 2%;
+}
